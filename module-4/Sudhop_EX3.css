@@ -10,6 +10,7 @@ h1 {
     border-color: red;
     border-style: solid;
     border-radius: 15px;
+    float: inline-start;
 }
 
 #right {
@@ -19,6 +20,7 @@ h1 {
     border-color: red;
     border-style: dashed;
     border-radius: 15px;
+    float: inline-end;
 }
 
 h3 {
