@@ -25,6 +25,17 @@ h3 {
     font-weight: 500;
 }
 
+ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    padding: 10px;
+    list-style-position: inside;
+    list-style: upper-roman;
+}
+
 li {
     font-weight: 300;
 }
@@ -32,10 +43,13 @@ li {
 #bottom {
     width: 100%;
     margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
 a.top {
