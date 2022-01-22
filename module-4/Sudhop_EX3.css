@@ -34,9 +34,9 @@ ol {
 }
 
 ul {
-    padding: 10px;
     list-style-position: inside;
     list-style: upper-roman;
+    padding: 10px;
 }
 
 li {
