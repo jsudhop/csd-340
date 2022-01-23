@@ -47,9 +47,13 @@ li {
 
 /* I don't understand why we set it to margin 60% on the final margin-top  I get wanting it to be at the bottom of the screen with some space, but when I make this setting it just pushes it out of the bottom of the screen
  and it doesnt end up looking like the example.  Maybe I missed a step here, or maybe my firefox is doing something it shouldn't but I really don't know what to make of it.*/
-#last {
+#bottom {
     width: 100%;
     margin-top: 60%;
+}
+
+/* I think I figured it out maybe*/
+#last {
     float: right;
     margin-bottom: 20px;
 }
