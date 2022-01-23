@@ -49,15 +49,15 @@ li {
     margin-bottom: 20px;
 }
 
-a.fav {
+a {
     text-decoration: none;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-a.return {
+a[href="#container"] {
     text-decoration: none;
-    float: right;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
+    float: right;
 }
 
 a:hover {
