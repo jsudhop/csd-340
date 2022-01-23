@@ -43,19 +43,19 @@ li {
     font-weight: 300;
 }
 
-#bottom {
+#last {
     width: 100%;
     margin-top: 60%;
     float: right;
     margin-bottom: 20px;
 }
 
-a {
+a.fav {
     text-decoration: none;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-a.top {
+a.return {
     float: right;
 }
 
@@ -64,6 +64,3 @@ a:hover {
 
 }
 
-a:visited {
-
-}
