@@ -56,11 +56,12 @@ a.fav {
 }
 
 a.return {
+    text-decoration: none;
     float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
 a:hover {
     text-decoration: underline;
-
 }
 
