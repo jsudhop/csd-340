@@ -1,8 +1,10 @@
+/* Do I actually need to specifically define the fonb-family all over the place, or since it only used the one, I could just have put it into the  body {}, right?*/ 
 h1 {
     text-align: center;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
+/* I seperated the 2 side by side divs into different sections for the css, i originally had them together, but then I realized I would have to have some separation in order to get the border styles to be different*/
 #left {
     width: 45%;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
@@ -23,6 +25,7 @@ h1 {
     float: inline-end;
 }
 
+/* I added some not explicitly asked for padding here, because I thought it looked better*/
 h3 {
     font-weight: 500;
     padding-left: 5px;
@@ -42,6 +45,8 @@ li {
     padding-left: 10px;
 }
 
+/* I don't understand why we set it to margin 60% on the final margin-top  I get wanting it to be at the bottom of the screen with some space, but when I make this setting it just pushes it out of the bottom of the screen
+ and it doesnt end up looking like the example.  Maybe I missed a step here, or maybe my firefox is doing something it shouldn't but I really don't know what to make of it.*/
 #last {
     width: 100%;
     margin-top: 60%;
