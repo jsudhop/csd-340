@@ -15,7 +15,7 @@
     border-color: rgba(185, 63, 8);
     border-radius: 15px;
     border-style: solid;
-    float: left;
+    float: inline-start;
 }
 
 #middle {
@@ -24,7 +24,6 @@
     border-color: rgba(185, 63, 8);
     border-radius: 15px;
     border-style: solid;
-    float: none;
 }
 
 #right {
@@ -33,7 +32,7 @@
     border-color: rgba(185, 63, 8);
     border-radius: 15px;
     border-style: solid;
-    float: right;
+    float: inline-end;
 }
 
 figure {
