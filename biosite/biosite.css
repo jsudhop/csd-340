@@ -1,0 +1,54 @@
+#sidebar {
+    position: fixed;
+    float: left;
+    border-top: 2.5px;
+    border-left: 2.5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #450214;
+    overflow: hidden;
+    background-color: #91072c;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    height: 30%;
+}
+
+#sidebar a {
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    background-color: #450214;
+    text-decoration: underline;
+}
+
+#sidebar a:visited {
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(background.webp);
+}
+
+.entry {
+    border-top: 2.5px;
+    border-left: 2.5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 45, 09, 0.95);
+    width: 50%;
+    float: right;
+    margin-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    text-align: center;
+}
