@@ -90,6 +90,11 @@ body {
     text-align: center;
 }
 
+.clear {
+    clear: both;
+    margin-bottom: 5.5%;
+}
+
 footer {
     bottom: 0;
     position: fixed;
