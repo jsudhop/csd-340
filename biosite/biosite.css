@@ -1,3 +1,17 @@
+header {
+    border-top: 2.5px;
+    border-left: 2.5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 45, 09, 0.95);
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+
+}
+
 #sidebar {
     position: fixed;
     float: left;
@@ -52,4 +66,30 @@ body {
     padding-right: 10%;
     color: white;
     text-align: center;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 99%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 45, 09, 0.95);
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
