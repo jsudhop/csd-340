@@ -59,7 +59,7 @@ footer {
 }
 
 .card-content {
-    padding: 2px 16px;
+    padding: 2px 16px 2px 16px;
     color: #2c1253;
 }
 
@@ -78,13 +78,21 @@ footer {
 .input {
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
+    display: flex;
     border: #ccc;
     border-style: solid;
     border-width: 1px;
     box-sizing: border-box;
     border-radius: 4px;
     text-align: right;
+}
+
+.form {
+    display: flex;
+}
+
+.form-field {
+    padding: 10px;
 }
 
 .btn-primary {
